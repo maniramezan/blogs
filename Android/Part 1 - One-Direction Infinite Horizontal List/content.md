@@ -45,3 +45,5 @@ The next screen is for customizing your activity, things like activity name, lay
 ![Project customizing activity](./assets/project-activity-customization.png)
 
 After clicking on `Finish`
+
+https://realm.io/news/360andev-yigit-boyar-pro-recyclerview-android-ui-java/
