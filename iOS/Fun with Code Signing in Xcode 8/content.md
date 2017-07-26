@@ -36,7 +36,7 @@ This portion saves  information about your targets and some attributes about you
 
 ![Project Targets](./assets/pbxproj_target_settings.png)
 
-You can find more information on `pbxproj` structure and what each portion of the file is at [this link](http://danwright.info/blog/2010/10/xcode-pbxproject-files/).
+You can find more information on `pbxproj` structure and what each portion of the file is at [this link](http://danwright.info/blog/2010/10/xcode-pbxproject-files/) or [this one](http://www.monobjc.net/xcode-project-file-format.html).
 
 As illustrated above, you can find your target UUID under targets and by that, find attributes assigned to your target under `TargetAttributes`. One of the attributes that's saved under there is the `DevelopmentTeam` ID, your apple team ID, and `ProvisioningStyle` which indicates code signing mode, `Automatic` / `Manual`. Now, you see where the above error is coming from:
 
