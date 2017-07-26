@@ -1,4 +1,4 @@
-# Fun with Code Signing in Xcode 8
+# Manual Code Signing
 
 Apple introduced automatic code signing feature in Xcode 8. This was intended to fix many issues that developers had previously on managing certificates and provisioning applications in addition to make it much easier to sign applications and make capabilities in the app and developer portal in sync. There is a whole session on this topic in WWDC 2016, [What's New in Xcode App Signing](https://developer.apple.com/videos/play/wwdc2016/401/). This feature helps to save lots of time on certificate management to provisioning applications. However, since the automatic code signing feature started using Development certificate for archiving the app, this broke most of build scripts. As it's discussed in [this answer](https://stackoverflow.com/a/39598052/1450348), there are several workarounds for it. In this post, we will look into how to switch to manual code signing in build script for a scenario that you’d need to use a separate certificate in your build scripts.
 
